@@ -14,9 +14,7 @@ class User(Document):  # collection
     # additional methods for representation collection
     # instance in print statements
     def __str__(self):
-        return (
-            '<User: first_name={}, last_name={}>'
-        ).format(self.first_name, self.last_name)
+        return '<User: {} {}>'.format(self.first_name, self.last_name)
 
     def __repr__(self):
         return self.__str__()
