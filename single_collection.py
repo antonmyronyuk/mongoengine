@@ -58,5 +58,8 @@ finally:
     print(User.objects)
 
 # delete user
-User.objects(last_name='Bing').delete()
+print(User.objects(last_name='Bing').delete())  # number of users deleted
 print(User.objects)
+
+# objects count
+print(User.objects.count())
