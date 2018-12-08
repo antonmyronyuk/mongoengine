@@ -9,6 +9,8 @@ class User(Document):  # collection
     first_name = StringField(max_length=50)
     last_name = StringField(max_length=50)
 
+    meta = {'collection': 'users'}  # collection name in db
+
     # additional methods for representation collection
     # instance in print statements
     def __str__(self):
