@@ -1,6 +1,6 @@
 # MongoEngine ODM examples
 
-MongoEngine looks like Django ORM, so it's easy to 
+MongoEngine ODM looks like Django ORM, so it's easy to 
 understand it if you are familiar with Django:
 
 * [Single collection example (CRUD)](single_collection.py)
